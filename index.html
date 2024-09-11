@@ -17,12 +17,12 @@
                 <a href="#">Agents</a>
                 <a href="#">Contact</a>
             </nav>
-            <div>
+            <div class="header-btns">
                 <div>
-                    <img src="/assets/img/icon/search-icon.svg" alt="search-icon">
-                    <img src="/assets/img/icon/user-icon.svg" alt="user-icon">
+                    <img src="/assets/img/icon/search-icon.svg" alt="search icon">
+                    <img src="/assets/img/icon/user-icon.svg" alt="user icon">
                 </div>
-                <button>Sign up</button>
+                <button class="montserrat-600">Sign up</button>
             </div>
         </div>
     </header>
@@ -34,7 +34,47 @@
                     <h2 class="montserrat-700">Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision</h2>
                     <button type="button" class="montserrat-600">Sign up</button>
                 </section>
-                <img src="/assets/img/home-img.png" alt="home-image" class="main-block_content-img">
+                <img src="/assets/img/home-img.png" alt="home-image" class="main-block_content-img"> <!-- Нужно изменить стили. Дом перемещается при увеличении страницы -->
+            </div>
+        </div>
+        <div class="dream-house">
+            <form action="get" class="dream-house_form container">
+                <label for="location">
+                    <input type="text" placeholder="Location" id="location" class="montserrat-700">
+                    <img src="/assets/img/icon/location-icon.svg" alt="location icon">
+                </label>
+                <label for="type">
+                    <input type="text" placeholder="Type" id="type" class="montserrat-700">
+                    <img src="/assets/img/icon/home-icon.svg" alt="home icon">
+                </label>
+                <label for="price-range">
+                    <input type="text" placeholder="Price Range" id="price-range" class="montserrat-700">
+                    <img src="/assets/img/icon/price-icon.svg" alt="price icon">
+                </label>
+                <button type="submit" class="montserrat-600">Sign up</button>
+            </form>
+        </div>
+        <div class="second-block">
+            <div class="container second-block_content">
+                <img src="/assets/img/house-1.png" alt="house-1">
+                <div>
+                    <p>We Help You To Find <br> Your Dream Home</p>
+                    <p>From cozy cottages to luxurious estates, our <br> dedicated team guides you through every step of the <br> journey, ensuring your dream home becomes a reality</p>
+                    <div>
+                        <div>
+                            <p>8K+</p>
+                            <p>Houses Available</p>
+                        </div>
+                        <div>
+                            <p>6K+</p>
+                            <p>Houses Sold</p>
+                        </div>
+                        <div>
+                            <p>2K+</p>
+                            <p>Trusted Agents</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

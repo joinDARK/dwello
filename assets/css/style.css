@@ -75,6 +75,27 @@ header {
     text-decoration: none;
 }
 
+.header-btns {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.header-btns > div {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.header-btns > button {
+    width: 122px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2B1B12;
+    color: white;
+}
+
 .main-block {
     background-color: #FEF7F2;
 }
@@ -122,6 +143,67 @@ header {
     position: absolute;
     top: 19px;
     right: 0;
+}
+
+.dream-house {
+    position: absolute;
+    width: 100%;
+    top: 820px;
+}
+
+.dream-house_form {
+    width: fit-content;
+    background-color: #DDC7BB;
+    border-radius: 18px;
+    padding: 51px 34px 51px 30px;
+
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    box-shadow: 0px 8px 30px 0px #2B1B121F;
+}
+
+.dream-house_form label {
+    width: 252px;
+    height: 58px;
+    padding: 0 18px;
+    background-color: #FBF5F1;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+}
+
+.dream-house_form input {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: #695346;
+}
+
+.dream-house_form input::placeholder {
+    color: #695346;
+}
+
+.dream-house_form button {
+    width: 156px;
+    height: 58px;
+    border-radius: 8px;
+    color: white;
+    background-color: #2B1B12;
+    border: none;
+    margin-left: 22px;
+}
+
+.second-block {
+    padding-top: 218px;
+    padding-bottom: 144px;
+}
+
+.second-block_content {
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {
