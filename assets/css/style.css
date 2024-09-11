@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+    Глобальные стили
+*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header {
+html {
+    font-size: 16px;
+}
 
+button {
+    cursor: pointer;
 }
 
 .container {
@@ -13,8 +23,150 @@ header {
     margin: auto;
 }
 
-.header_style {
+.montserrat-600 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.montserrat-700 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.montserrat-800 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+/*
+    Стили элементов
+*/
+
+header {
+    padding-top: 40px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-content {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+}
+
+.header-content_nav {
+    width: 467px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-content_nav a {
+    color: #2B1B12;
+    text-decoration: none;
+}
+
+.main-block {
+    background-color: #FEF7F2;
+}
+
+.main-block_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-block_content-title {
+    margin-top: 245px;
+    margin-bottom: 240px;
+}
+
+.main-block_content-title h1 {
+    font-size: 4.625rem;
+    color: #2B1B12;
+}
+
+.main-block_content-title h1 > span {
+    font-size: 4.25rem;
+}
+
+.main-block_content-title h2 {
+    font-size: 1.125rem;
+    width: 413px;
+    color: #4F3527;
+    margin-top: 32px;
+}
+
+.main-block_content-title button {
+    width: 176px;
+    height: 58px;
+    margin-top: 72px;
+
+    font-size: 1.125rem;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+    background-color: #2B1B12;
+}
+
+.main-block_content-img {
+    position: absolute;
+    top: 19px;
+    right: 0;
+}
+
+footer {
+    background-color: #DDC7BB;
+    padding-top: 80px;
+    padding-bottom: 202px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title p {
+    margin-top: 32px;
+    color: #4F3527;
+}
+
+.links-title {
+    font-size: 1.375rem;
+    color: #2B1B12;
+    margin-top: 12px;
+    margin-bottom: 34px;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.links-container a, .soc-media_link a {
+    font-size: 1.125rem;
+    color: #4F3527;
+    text-decoration: none;
+}
+
+.soc-media_links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.soc-media_link {
+    display: flex;
+    align-items: center;
+    gap: 18px;
 }
