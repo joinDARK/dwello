@@ -282,8 +282,11 @@ header {
 }
 
 .third-block_content-title-1 {
-    color: #2B1B12;
     margin-bottom: 16px;
+}
+
+.third-block_content-title-1, .fourth-block-title1 {
+    color: #2B1B12;
     text-align: center;
 }
 
@@ -291,6 +294,14 @@ header {
     color: #4F3527;
     margin-bottom: 64px;
     text-align: center;
+}
+
+.fourth-block-title1 {
+    margin-bottom: 64px;
+}
+
+.residence {
+    
 }
 
 footer {
