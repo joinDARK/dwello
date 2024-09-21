@@ -387,6 +387,98 @@ header {
 
 .fifth-block {
     background-color: #FEF7F2;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.fifth-block_title {
+    text-align: center;
+    color: #2B1B12;
+    margin-bottom: 63px;
+}
+
+.fifth-block_content_nav {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    margin-top: 45px;
+}
+
+.fifth-block_content_nav button {
+    width: 58px;
+    height: 58px;
+    border: none;
+    border-radius: 50%;
+    background-color: #2B1B12;
+}
+
+.sixth-block_title {
+    text-align: center;
+    margin-top: 144px;
+    color: #2B1B12;
+}
+
+.sixth-block_texts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+
+    margin-top: 34px;
+    margin-bottom: 66px;
+}
+
+.sixth-block_texts > div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.sixth-block_texts > div p {
+    color: #543E32;
+}
+
+.sixth-block_form div {
+    width: 505px;
+    height: 58px;
+    background-color: #DDC7BB;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px #2B1B121F;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sixth-block_form {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    margin-bottom: 149px;
+}
+
+.sixth-block_form div input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: #543E32;
+    width: 100%;
+}
+
+.sixth-block_form div input::placeholder {
+    color: #543E32;
+}
+
+.sixth-block_form button {
+    width: 156px;
+    height: 58px;
+    border-radius: 8px;
+    color: white;
+
+    border: none;
+    background-color: #2B1B12;
 }
 
 footer {
