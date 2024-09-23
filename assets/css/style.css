@@ -397,6 +397,61 @@ header {
     margin-bottom: 63px;
 }
 
+.reviews {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review {
+    background-color: #DDC7BB;
+    width: 382px;
+    height: 430px;
+    border-radius: 18px;
+}
+
+.review > img {
+    border-radius: 18px 18px 0 0;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    width: 334px;
+    gap: 8px;
+    margin: 28px auto 16px;
+}
+
+.user-info_main {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.user-info_main, .user-info_score {
+    color: #2B1B12;
+}
+
+.user-info_score {
+    background-color: white;
+    width: 59px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    margin-left: auto;
+}
+
+.user-review {
+    color: #4F3527;
+    width: 334px;
+    margin: 0 auto;
+}
+
 .fifth-block_content_nav {
     display: flex;
     justify-content: center;
